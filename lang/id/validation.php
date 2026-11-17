@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus disetujui.',
+    'array' => ':attribute harus berupa daftar.',
+    'boolean' => ':attribute harus bernilai benar atau salah.',
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'current_password' => 'Password salah.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'decimal' => ':attribute harus memiliki :decimal angka desimal.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'file' => ':attribute harus berupa file.',
+    'image' => ':attribute harus berupa gambar.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'lowercase' => ':attribute harus huruf kecil.',
+    'max' => [
+        'numeric' => ':attribute tidak boleh lebih dari :max.',
+        'file' => ':attribute tidak boleh lebih dari :max kilobyte.',
+        'string' => ':attribute tidak boleh lebih dari :max karakter.',
+        'array' => ':attribute tidak boleh lebih dari :max item.',
+    ],
+    'mimes' => ':attribute harus berupa file bertipe: :values.',
+    'min' => [
+        'numeric' => ':attribute minimal :min.',
+        'file' => ':attribute minimal :min kilobyte.',
+        'string' => ':attribute minimal :min karakter.',
+        'array' => ':attribute minimal :min item.',
+    ],
+    'numeric' => ':attribute harus berupa angka.',
+    'password' => [
+        'letters' => ':attribute harus mengandung huruf.',
+        'mixed' => ':attribute harus mengandung huruf besar dan huruf kecil.',
+        'numbers' => ':attribute harus mengandung angka.',
+        'symbols' => ':attribute harus mengandung simbol.',
+        'uncompromised' => ':attribute ini pernah bocor di internet. Gunakan password lain.',
+    ],
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah terdaftar.',
+
+    'attributes' => [
+        'name' => 'nama',
+        'email' => 'email',
+        'phone' => 'nomor HP',
+        'password' => 'password',
+        'current_password' => 'password saat ini',
+    ],
+];

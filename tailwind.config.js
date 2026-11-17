@@ -1,5 +1,6 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import daisyui from 'daisyui';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -17,5 +18,11 @@ export default {
         },
     },
 
-    plugins: [forms],
+    plugins: [forms, daisyui],
+
+    // Tema daisyUI. Warna bisa disesuaikan dengan desain Figma nanti.
+    daisyui: {
+        themes: ['light'],
+        logs: false,
+    },
 };
